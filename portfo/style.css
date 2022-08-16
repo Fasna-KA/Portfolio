@@ -551,12 +551,12 @@ section .title::after{
     .column{
         width: 100%;
     }
-    .left{
+    .about .about-content .left{
         display: flex;
         justify-content: center;
         margin: 0 auto 60px;
     }
-    .right{
+    .about .about-content .right{
         flex: 100%;
     }
     .card1{
