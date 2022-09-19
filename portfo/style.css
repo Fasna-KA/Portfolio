@@ -69,13 +69,12 @@ section .title::after{
     background-color: #111;
 
 }
-.navbar.sticky{
-    padding: 15px 0;
-    background: crimson;
-}
 .navbar .max-width{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.logo{
     justify-content: space-between;
 }
 .navbar .logo a{
@@ -87,10 +86,11 @@ section .title::after{
     color: crimson;
     transition: all 0.3s ease;
 }
-.navbar.sticky .logo a span{
+.navbar .logo a span{
     color: #fff;
 }
 .navbar .menu li{
+    
     list-style: none;
     display: inline-block;
 }
@@ -231,6 +231,7 @@ section .title::after{
     content: "what i provide";
 }
 .card{
+    margin-bottom: 50px;
     background: #222;
     text-align: center;
     border-radius: 6px;
@@ -322,16 +323,16 @@ section .title::after{
     width: 90%;
 }
 .css::before{
-    width: 80%;
+    width: 90%;
 }
 .js::before{
-    width: 60%;
+    width: 80%;
 }
 .react::before{
-    width: 70%;
+    width: 80%;
 }
 .node::before{
-    width: 60%;
+    width: 70%;
 }
 /* teams section styling */
 .teams .title::before{
@@ -496,7 +497,9 @@ section .title::after{
 @media (max-width: 991px) {
     .max-width{
         padding: 0 50px;
+        
     }
+    
 }
 @media (max-width: 947px){
     .profile{
